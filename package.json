@@ -1,0 +1,36 @@
+{
+	"name": "has-override-mistake",
+	"version": "0.0.0",
+	"description": "Determine whether the environment has the so-called \"override mistake\" - [[Set]]ing a property whose ancestor is nonwritable throws.",
+	"main": "index.js",
+    "exports": {
+      ".": "./index.js",
+      "./package.json": "./package.json"
+    },
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/inspect-js/has-override-mistake.git"
+	},
+	"keywords": [
+		"freeze",
+		"frozen",
+		"writable",
+		"set",
+		"define",
+		"throws",
+		"override",
+		"mistake",
+		"ecmascript",
+		"javascript",
+		"nonwritable"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/inspect-js/has-override-mistake/issues"
+	},
+	"homepage": "https://github.com/inspect-js/has-override-mistake#readme"
+}
