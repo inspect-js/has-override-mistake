@@ -1,6 +1,6 @@
 {
 	"name": "has-override-mistake",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Determine whether the environment has the so-called \"override mistake\" - [[Set]]ing a property whose ancestor is nonwritable throws.",
 	"main": "index.js",
 	"exports": {
