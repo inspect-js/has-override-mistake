@@ -13,6 +13,7 @@
 		"prepublishOnly": "safe-publish-latest",
 		"prepublish": "not-in-publish || npm run prepublishOnly",
 		"lint": "eslint --ext=js,mjs .",
+		"postlint": "tsc -p .",
 		"pretest": "npm run lint",
 		"tests-only": "nyc tape 'test/**/*.js'",
 		"test": "npm run tests-only",
@@ -45,6 +46,8 @@
 	"homepage": "https://github.com/inspect-js/has-override-mistake#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.1.0",
+		"@types/semver": "^6.2.7",
+		"@types/tape": "^5.6.4",
 		"aud": "^2.0.4",
 		"auto-changelog": "^2.4.0",
 		"eslint": "=8.8.0",
@@ -53,7 +56,8 @@
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^2.0.0",
 		"semver": "^6.3.1",
-		"tape": "^5.7.5"
+		"tape": "^5.7.5",
+		"typescript": "next"
 	},
 	"testling": {
 		"files": "test/index.js"
