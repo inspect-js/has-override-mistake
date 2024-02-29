@@ -6,4 +6,13 @@
 	"rules": {
 		"func-style": "off",
 	},
+
+	"overrides": [
+		{
+			"files": "./index.js",
+			"rules": {
+				"strict": "off",
+			},
+		},
+	],
 }
