@@ -46,6 +46,7 @@
 	"homepage": "https://github.com/inspect-js/has-override-mistake#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.1.0",
+		"@ljharb/tsconfig": "^0.2.0",
 		"@types/semver": "^6.2.7",
 		"@types/tape": "^5.6.4",
 		"aud": "^2.0.4",
